@@ -1,0 +1,127 @@
+[
+  {
+    "id": "wolf",
+    "img": "/media/img/werewolf.svg",
+    "title": {
+      "es": "Lobo",
+      "en": "Wolf"
+    },
+    "description": {
+      "es": "Por la noche, entre todos los lobos, señaláis a quien queréis matar. <br><b>Objetivo</b>: matar a todos los aldeanos."
+    },
+    "type": "character"
+  },
+  {
+    "id": "villager",
+    "img": "/media/img/villagers/023-singer.svg",
+    "imgAlt": [
+      "/media/img/villagers/023-singer.svg",
+      "/media/img/villagers/017-man.svg",
+      "/media/img/villagers/008-farmer.svg",
+      "/media/img/villagers/010-hipster.svg",
+      "/media/img/villagers/021-runner.svg",
+      "/media/img/villagers/006-constructor.svg",
+      "/media/img/villagers/028-teacher.svg"
+    ],
+    "title": {
+      "es": "Aldeano",
+      "en": "Villager"
+    },
+    "description": {
+      "es": "Durante el día, entre todos los aldeanos, debairéis a quien matar ese día. <br><b>Objetivo</b>: matar a todos los lobos."
+    },
+    "type": "character"
+  },
+  {
+    "id": "villager_female",
+    "img": "/media/img/villagers/014-maid-3.svg",
+    "imgAlt": [
+      "/media/img/villagers/014-maid-3.svg",
+      "/media/img/villagers/012-maid-1.svg",
+      "/media/img/villagers/020-professor.svg",
+      "/media/img/villagers/005-chinese.svg",
+      "/media/img/villagers/003-business-woman.svg",
+      "/media/img/villagers/032-pretty.svg"
+    ],
+    "title": {
+      "es": "Aldeana",
+      "en": "Villager"
+    },
+    "description": {
+      "es": "Durante el día, entre todos los aldeanos, debairéis a quien matar ese día. <br><b>Objetivo</b>: matar a todos los lobos."
+    },
+    "type": "character"
+  },
+  {
+    "id": "fortune_teller",
+    "img": "/media/img/crystal-ball.svg",
+    "title": {
+      "es": "Adivina",
+      "en": "Fortune teller"
+    },
+    "description": {
+      "es": "Cada noche puedes conocer el personaje de quien quieras. <br><b>Objetivo</b>: matar a todos los lobos."
+    },
+    "type": "character"
+  },
+  {
+    "id": "cupid",
+    "img": "/media/img/cupid.svg",
+    "title": {
+      "es": "Cupido",
+      "en": "Cupid"
+    },
+    "description": {
+      "es": "La primera noche puedes enamorar a 2 personas. <br><b>Objetivo</b>: matar a todos los lobos."
+    },
+    "type": "character"
+  },
+  {
+    "id": "feral_child",
+    "img": "/media/img/native-american-male.svg",
+    "title": {
+      "es": "Niño salvaje",
+      "en": "Feral child"
+    },
+    "description": {
+      "es": "La primera noche escojes tu referente. Si tu referente muere te transformas en lobo. <br><b>Objetivo inicial</b>: matar a todos los lobos.<br><b>Objetivo transformado</b>: matar a todos los aldeanos."
+    },
+    "type": "character"
+  },
+  {
+    "id": "witch",
+    "img": "/media/img/hat.svg",
+    "title": {
+      "es": "Bruja",
+      "en": "Witch"
+    },
+    "description": {
+      "es": "Dispones de 2 pociones: una que resucita y otra que mata. Por la noche puedes reanimar al que han matado los lobos o matar alguen más. <br><b>Objetivo</b>: matar a todos los lobos."
+    },
+    "type": "character"
+  },
+  {
+    "id": "extra_life",
+    "img": "/media/img/revive.svg",
+    "title": {
+      "es": "Vida extra",
+      "en": "Extra life"
+    },
+    "description": {
+      "es": "Si te matan puedes revivir sin mostrar tu identidad. <br><b>1 Uso</b>"
+    },
+    "type": "bonus"
+  },
+  {
+    "id": "mad",
+    "img": "/media/img/mad.svg",
+    "title": {
+      "es": "Repelente",
+      "en": "Cheeky"
+    },
+    "description": {
+      "es": "La primera noche escojes tu polo opuesto. Tienes que llevarle la contraria toda la partida."
+    },
+    "type": "attribute"
+  }
+]

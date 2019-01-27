@@ -1,0 +1,24 @@
+*{font-family: 'Lora', serif;}
+body{margin:0;}
+.card{
+  float: left;
+  width: 6.4cm;
+  height: 8.9cm;
+  text-align: center;
+  border: solid #222 0.35cm;
+  padding: 0.25cm;
+  /* outline: solid #000 0.05cm; */
+  margin: 0.05cm;
+  /* margin: -0.02em; */
+  /* border: dashed rgb(214, 197, 197) 0.02cm; */
+  box-sizing: border-box;
+  border-radius: 0.25cm;
+}
+.card__title{font-size: 0.8cm; line-height: 0.9; margin: 0.25cm 0 0.25cm;}
+.card__description{font-size: 0.35cm; line-height: 0.4cm;}
+.card__img{height: 3cm; margin: 0.5cm 0 0;}
+.card__img--back{height: 3cm; margin: 1cm 0 0;}
+.card--back::after{content: "?  ?  ?";display: block; font-size: 1cm; line-height: 0.9; margin: 1cm 0 0;}
+.card--bonus{border-color: #008a7a;}
+.card--attribute{border-color: #d37f00;}
+.deck {page-break-after: always; clear: both;}
