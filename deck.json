@@ -1,12 +1,15 @@
 {
-  "fortune_teller": 1,
   "wolf": 2,
+  "villager": 1,
+  "villager_female": 1,
+  "fortune_teller": 1,
   "cupid": 1,
-  "witch": 1,
   "feral_child": 1,
-  "extra_life": 2,
+  "witch": 1,
+  "maruja": 1,
+  "hipnosis": 1,
+  "protecto": 1,
+  "extra_life": 1,
   "mad": 1,
-  "slap_man": 1,
-  "villager": 7,
-  "villager_female": 6
+  "slap_man": 1
 }
