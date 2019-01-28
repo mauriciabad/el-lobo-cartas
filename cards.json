@@ -123,8 +123,8 @@
     "type": "character"
   },
   {
-    "id": "hipnosis",
-    "img": "media/img/hipnosis.svg",
+    "id": "hypnosis.svg",
+    "img": "media/img/hypnosis.svg.svg",
     "title": {
       "es": "Hipnotizador"
     },
@@ -180,8 +180,12 @@
   {
     "id": "extra_life",
     "img": "media/img/revive.svg",
+    "imgAlt": [
+      "media/img/tipoduro.svg",
+      "media/img/tipoduro2.svg"
+    ],
     "title": {
-      "es": "Vida extra"
+      "es": "Tipo duro"
     },
     "description": {
       "es": "Si te matan puedes revivir sin mostrar tu identidad. <br><b>1 Uso</b>"
