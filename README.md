@@ -1,4 +1,5 @@
-# ElLobo
+# El Lobo
+Takes cards.json and deck.json and generates a pdf file
 
 To intall dependencies:
 ```bash
