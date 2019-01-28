@@ -1,5 +1,5 @@
 {
-  "wolf": 2,
+  "wolf": 1,
   "villager": 1,
   "villager_female": 1,
   "fortune_teller": 1,
@@ -7,9 +7,16 @@
   "feral_child": 1,
   "witch": 1,
   "maruja": 1,
+  "hunter": 1,
   "hipnosis": 1,
+  "baker": 1,
   "angel": 1,
+  "crazydoctor": 1,
+  "monja": 1,
   "extra_life": 1,
+  "silver_bullet": 1,
   "mad": 1,
+  "judge": 1,
+  "pinocho": 1,
   "slap_man": 1
 }
