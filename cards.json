@@ -123,5 +123,17 @@
       "es": "La primera noche escojes tu polo opuesto. Tienes que llevarle la contraria toda la partida."
     },
     "type": "attribute"
+  },
+  {
+    "id": "slap_man",
+    "img": "/media/img/fist.svg",
+    "title": {
+      "es": "El Collejas",
+      "en": "Slap Man"
+    },
+    "description": {
+      "es": "Cada noche puede dar una colleja a quien quiera."
+    },
+    "type": "attribute"
   }
 ]
