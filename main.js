@@ -1,46 +1,10 @@
-var __values = (this && this.__values) || function (o) {
-    var m = typeof Symbol === "function" && o[Symbol.iterator], i = 0;
-    if (m) return m.call(o);
-    return {
-        next: function () {
-            if (o && i >= o.length) o = void 0;
-            return { value: o && o[i++], done: !o };
-        }
-    };
-};
-var __read = (this && this.__read) || function (o, n) {
-    var m = typeof Symbol === "function" && o[Symbol.iterator];
-    if (!m) return o;
-    var i = m.call(o), r, ar = [], e;
-    try {
-        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
-    }
-    catch (error) { e = { error: error }; }
-    finally {
-        try {
-            if (r && !r.done && (m = i["return"])) m.call(i);
-        }
-        finally { if (e) throw e.error; }
-    }
-    return ar;
-};
 var traverse = require('traverse');
 var fs = require('fs');
 // const pdf = require('html-pdf');
 var language = 'es';
 var cards = filter_language(JSON.parse(fs.readFileSync('cards.json')), language)
     .reduce(function (obj, item) { obj[item.id] = item; return obj; }, {});
-var deck = new Map([
-    ["fortune_teller", 1],
-    ["wolf", 2],
-    ["cupid", 1],
-    ["witch", 1],
-    ["feral_child", 1],
-    ["villager", 7],
-    ["villager_female", 6],
-    ["extra_life", 2],
-    ["mad", 1],
-]);
+var deck = JSON.parse(fs.readFileSync('deck.json'));
 function filter_language(obj, language) {
     return traverse(obj).map(function (item) {
         if (this.key === language)
@@ -61,28 +25,11 @@ var CardTypeName;
     CardTypeName["bonus"] = "ventaja";
 })(CardTypeName || (CardTypeName = {}));
 function generateCardDeck(cards, deck) {
-    var e_1, _a;
-    var totalCards = {};
     var cardsHTML = '';
-    try {
-        for (var deck_1 = __values(deck), deck_1_1 = deck_1.next(); !deck_1_1.done; deck_1_1 = deck_1.next()) {
-            var _b = __read(deck_1_1.value, 2), cardId = _b[0], cardAmount = _b[1];
-            if (!totalCards[cards[cardId].type])
-                totalCards[cards[cardId].type] = 0;
-            totalCards[cards[cardId].type] += cardAmount;
-            cardsHTML += generateCard(cards[cardId], cardAmount);
-        }
-    }
-    catch (e_1_1) { e_1 = { error: e_1_1 }; }
-    finally {
-        try {
-            if (deck_1_1 && !deck_1_1.done && (_a = deck_1["return"])) _a.call(deck_1);
-        }
-        finally { if (e_1) throw e_1.error; }
-    }
     var cardsBackHTML = '';
-    for (var type in totalCards) {
-        cardsBackHTML += generateCardBack(type, totalCards[type]);
+    for (var id in deck) {
+        cardsHTML += generateCard(cards[id], deck[id]);
+        cardsBackHTML += generateCardBack(cards[id].type, deck[id]);
     }
     return "\n  <div class=\"deck\">\n    " + cardsHTML + "\n  </div>\n  <div class=\"deck deck--back\">\n    " + cardsBackHTML + "\n  </div>";
 }
@@ -111,4 +58,4 @@ fs.writeFile("deck.html", html, function (err) {
         return console.log(err);
 });
 // tsc main.ts --lib ESNext --downlevelIteration && node main.js
-// pdf.create(html).toFile('deck.pdf', function(err, res) {if (err) { console.error(err); }});
+// pdf.create(html).toFile('./deck.pdf', function(err, res) {if (err) { console.error(err); }});

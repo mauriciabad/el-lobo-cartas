@@ -6,17 +6,7 @@ const language: string = 'es';
 const cards: Object = filter_language(JSON.parse(fs.readFileSync('cards.json')), language)
                       .reduce((obj: Object, item) => { obj[item.id] = item; return obj; }, {});  
 
-const deck: Map<string, number> = new Map([
-  [ "fortune_teller", 1 ],
-  [ "wolf", 2 ],
-  [ "cupid", 1 ],
-  [ "witch", 1 ],
-  [ "feral_child", 1 ],
-  [ "villager", 7 ],
-  [ "villager_female", 6 ],
-  [ "extra_life", 2 ],
-  [ "mad", 1 ],
-]);
+const deck: Object = JSON.parse(fs.readFileSync('deck.json'));
 
 function filter_language(obj: Object, language: string, ) {
   return traverse(obj).map(function(item) {
@@ -45,17 +35,12 @@ enum CardTypeName{
   bonus = 'ventaja'
 }
 
-function generateCardDeck(cards: Object, deck: Map<string, number>){
-  let totalCards = {};
+function generateCardDeck(cards: Object, deck: Object){
   let cardsHTML  = '';
-  for (const [cardId, cardAmount] of deck) {
-    if(!totalCards[cards[cardId].type]) totalCards[cards[cardId].type] = 0;
-    totalCards[cards[cardId].type] += cardAmount;
-    cardsHTML  += generateCard(cards[cardId], cardAmount);
-  }
   let cardsBackHTML = '';  
-  for (const type in totalCards) {
-    cardsBackHTML += generateCardBack(type, totalCards[type]);
+  for (const id in deck) {
+    cardsHTML  += generateCard(cards[id], deck[id]);
+    cardsBackHTML += generateCardBack(cards[id].type, deck[id]);
   }
   return `
   <div class="deck">
@@ -104,4 +89,4 @@ fs.writeFile("deck.html", html, (err) => {
 }); 
 // tsc main.ts --lib ESNext --downlevelIteration && node main.js
 
-// pdf.create(html).toFile('deck.pdf', function(err, res) {if (err) { console.error(err); }});
+// pdf.create(html).toFile('./deck.pdf', function(err, res) {if (err) { console.error(err); }});
