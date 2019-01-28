@@ -102,37 +102,78 @@
   },
   {
     "id": "maruja",
-    "img": "media/img/hat.svg",
+    "img": "media/img/maruja.svg",
     "title": {
-      "es": "Maruja",
-      "en": "Witch"
+      "es": "Maruja"
     },
     "description": {
-      "es": "Dispones de 2 pociones: una que resucita y otra que mata. Por la noche puedes reanimar al que han matado los lobos o matar alguen más. <br><b>Objetivo</b>: matar a todos los lobos."
+      "es": "<br><b>Objetivo</b>: adivinar que papel tienen todos."
+    },
+    "type": "character"
+  },
+  {
+    "id": "hunter",
+    "img": "media/img/hunter.svg",
+    "title": {
+      "es": "cazador"
+    },
+    "description": {
+      "es": "<br><b>Objetivo</b>: adivinar que papel tienen todos."
     },
     "type": "character"
   },
   {
     "id": "hipnosis",
-    "img": "media/img/hat.svg",
+    "img": "media/img/hipnosis.svg",
     "title": {
-      "es": "Bruja",
-      "en": "Witch"
+      "es": "Hipnotizador"
     },
     "description": {
-      "es": "Dispones de 2 pociones: una que resucita y otra que mata. Por la noche puedes reanimar al que han matado los lobos o matar alguen más. <br><b>Objetivo</b>: matar a todos los lobos."
+      "es": "<br><b>Objetivo</b>: matar a todos los lobos."
     },
     "type": "character"
   },
   {
-    "id": "protecto",
-    "img": "media/img/hat.svg",
+    "id": "baker",
+    "img": "media/img/baker.svg",
     "title": {
-      "es": "Bruja",
-      "en": "Witch"
+      "es": "Panadero"
     },
     "description": {
-      "es": "Dispones de 2 pociones: una que resucita y otra que mata. Por la noche puedes reanimar al que han matado los lobos o matar alguen más. <br><b>Objetivo</b>: matar a todos los lobos."
+      "es": "Cada noche puedes dar un trozo de pan a alquen para demostrarle que eres del pueblo. <br><b>Objetivo</b>: matar a todos los lobos."
+    },
+    "type": "character"
+  },
+  {
+    "id": "angel",
+    "img": "media/img/angel.svg",
+    "title": {
+      "es": "Ángel"
+    },
+    "description": {
+      "es": "<br><b>Objetivo</b>: matar a todos los lobos."
+    },
+    "type": "character"
+  },
+  {
+    "id": "crazydoctor",
+    "img": "media/img/einstein.svg",
+    "title": {
+      "es": "Professor loco"
+    },
+    "description": {
+      "es": "<br><b>Objetivo</b>: matar a todos los lobos."
+    },
+    "type": "character"
+  },
+  {
+    "id": "monja",
+    "img": "media/img/nun.svg",
+    "title": {
+      "es": "Monja"
+    },
+    "description": {
+      "es": "<br><b>Objetivo</b>: matar a todos los lobos."
     },
     "type": "character"
   },
@@ -140,11 +181,21 @@
     "id": "extra_life",
     "img": "media/img/revive.svg",
     "title": {
-      "es": "Vida extra",
-      "en": "Extra life"
+      "es": "Vida extra"
     },
     "description": {
       "es": "Si te matan puedes revivir sin mostrar tu identidad. <br><b>1 Uso</b>"
+    },
+    "type": "bonus"
+  },
+  {
+    "id": "silver_bullet",
+    "img": "media/img/bullet.svg",
+    "title": {
+      "es": "Bala de plata"
+    },
+    "description": {
+      "es": "Si antes de matar a alguen enseñas tu ventaja y el muerto era lobo, se llevarà otro lobo a la tumba. <br><b>1 Uso</b>"
     },
     "type": "bonus"
   },
@@ -157,6 +208,30 @@
     },
     "description": {
       "es": "La primera noche escojes tu polo opuesto. Tienes que llevarle la contraria toda la partida."
+    },
+    "type": "attribute"
+  },
+  {
+    "id": "judge",
+    "img": "media/img/judge.svg",
+    "title": {
+      "es": "Judge",
+      "en": "Juez"
+    },
+    "description": {
+      "es": "En caso de empate tu decides quien muere. Puedes mostrar tu ventaja cuando quieras. Si mueres, decides a quen cederle tu puesto."
+    },
+    "type": "attribute"
+  },
+  {
+    "id": "pinocho",
+    "img": "media/img/pinocho.svg",
+    "title": {
+      "es": "Pinocho",
+      "en": "Pinocho"
+    },
+    "description": {
+      "es": "Siempre intentarás mentir."
     },
     "type": "attribute"
   },
