@@ -28,8 +28,13 @@ function generateCardDeck(cards, deck) {
     var cardsHTML = '';
     var cardsBackHTML = '';
     for (var id in deck) {
-        cardsHTML += generateCard(cards[id], deck[id]);
-        cardsBackHTML += generateCardBack(cards[id].type, deck[id]);
+        if (cards[id]) {
+            cardsHTML += generateCard(cards[id], deck[id]);
+            cardsBackHTML += generateCardBack(cards[id].type, deck[id]);
+        }
+        else {
+            console.log('there is no card with id ' + id);
+        }
     }
     return "\n  <div class=\"deck\">\n    " + cardsHTML + "\n  </div>\n  <div class=\"deck deck--back\">\n    " + cardsBackHTML + "\n  </div>";
 }

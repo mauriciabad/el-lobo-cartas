@@ -39,8 +39,12 @@ function generateCardDeck(cards: Object, deck: Object){
   let cardsHTML  = '';
   let cardsBackHTML = '';  
   for (const id in deck) {
-    cardsHTML  += generateCard(cards[id], deck[id]);
-    cardsBackHTML += generateCardBack(cards[id].type, deck[id]);
+    if(cards[id]){
+      cardsHTML  += generateCard(cards[id], deck[id]);
+      cardsBackHTML += generateCardBack(cards[id].type, deck[id]);
+    }else{
+      console.log('there is no card with id '+ id);
+    }
   }
   return `
   <div class="deck">
