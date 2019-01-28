@@ -101,6 +101,42 @@
     "type": "character"
   },
   {
+    "id": "maruja",
+    "img": "media/img/hat.svg",
+    "title": {
+      "es": "Maruja",
+      "en": "Witch"
+    },
+    "description": {
+      "es": "Dispones de 2 pociones: una que resucita y otra que mata. Por la noche puedes reanimar al que han matado los lobos o matar alguen más. <br><b>Objetivo</b>: matar a todos los lobos."
+    },
+    "type": "character"
+  },
+  {
+    "id": "hipnosis",
+    "img": "media/img/hat.svg",
+    "title": {
+      "es": "Bruja",
+      "en": "Witch"
+    },
+    "description": {
+      "es": "Dispones de 2 pociones: una que resucita y otra que mata. Por la noche puedes reanimar al que han matado los lobos o matar alguen más. <br><b>Objetivo</b>: matar a todos los lobos."
+    },
+    "type": "character"
+  },
+  {
+    "id": "protecto",
+    "img": "media/img/hat.svg",
+    "title": {
+      "es": "Bruja",
+      "en": "Witch"
+    },
+    "description": {
+      "es": "Dispones de 2 pociones: una que resucita y otra que mata. Por la noche puedes reanimar al que han matado los lobos o matar alguen más. <br><b>Objetivo</b>: matar a todos los lobos."
+    },
+    "type": "character"
+  },
+  {
     "id": "extra_life",
     "img": "media/img/revive.svg",
     "title": {

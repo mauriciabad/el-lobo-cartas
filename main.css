@@ -20,5 +20,5 @@ body{margin:0;}
 .card__img--back{height: 3cm; margin: 1cm 0 0;}
 .card--back::after{content: "?  ?  ?";display: block; font-size: 1cm; line-height: 0.9; margin: 1cm 0 0;}
 .card--bonus{border-color: #008a7a;}
-.card--attribute{border-color: #d37f00;}
+.card--attribute{border-color: #FF5827;}
 .deck {page-break-after: always; clear: both;}
