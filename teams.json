@@ -1,0 +1,22 @@
+{
+  "aldeanos": {
+    "title": "Aldeanos",
+    "objective": "Eliminar todos los lobos",
+    "color": "#0F0"
+  },
+  "lobos": {
+    "title": "Lobos",
+    "objective": "Eliminar todos los aldeanos",
+    "color": "#F00"
+  },
+  "solitario": {
+    "title": "Solitario",
+    "objective": "Depende de tu personaje",
+    "color": "#00F"
+  },
+  "ambuguo": {
+    "title": "Ambuguo",
+    "objective": "Puede cambiar durante la partida",
+    "color": "#000"
+  }
+}

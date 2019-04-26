@@ -3,7 +3,6 @@ Takes cards.json and deck.json and generates a pdf file
 
 To intall dependencies:
 ```bash
-sudo npm install traverse
 sudo npm install html-pdf
 ```
 
