@@ -179,20 +179,23 @@ function generateCardBack(type:CardType ,times: number=1): string {
       return `
         <div class="card card--back card--${type}">
           <img src="/media/img/detective.svg" class="card__img--back card__img--${type}--back">
+          <span class="card__title--back">? ? ?</span>
         </div>`.repeat(times);
     case CardType.profession:
       return `
         <div class="card card--back card--${type}">
           <img src="/media/img/detective.svg" class="card__img--back card__img--${type}--back">
+          <span class="card__title--back">? ? ?</span>
         </div>`.repeat(times);
     case CardType.event:
       return `
         <div class="card card--back card--${type}">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--${type}--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--${type}--back">
+          <span class="card__title--back">Evento</span>
         </div>`.repeat(times);
     case CardType.marker:
       return `
-        <div class="card card--back card--${type}">
+        <div class="card card--back card--${type}" style="visibility: hidden;">
           <img src="/media/img/detective.svg" class="card__img--back card__img--${type}--back">
         </div>`.repeat(times);
   }

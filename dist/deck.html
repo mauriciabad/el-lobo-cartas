@@ -20,13 +20,14 @@ body{margin:0;}
 .card__description{font-size: 0.35cm; line-height: 0.4cm;}
 .card__img{height: 3cm; margin: 0.5cm 0 0;}
 .card__img--back{height: 3cm; margin: 1cm 0 0;}
-.card--back::after{content: "?  ?  ?";display: block; font-size: 1cm; line-height: 0.9; margin: 1cm 0 0;}
+.card__title--back{display: block; font-size: 1cm; line-height: 0.9; margin: 1cm 0 0;}
 .card--event{border-color: #593494;}
-.card--marker{border-color: #008a7a;}
+.card--marker{border-color: #008a7a; width: 4cm; height: 4cm; border-radius: 100%; padding: 0.5cm}
 .card--profession{border-color: #FF5827;}
 .card--character{border-color: #222;}
 .deck {page-break-after: always; clear: both;}
-.card__img--event{position: absolute; top: 50%; left: 0; right: 0; z-index: -1; opacity: 0.333;}</style><link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+.card__img--event{position: absolute; top: 50%; left: 0; right: 0; z-index: -1; opacity: 0.333;}
+.card__img--marker--back{width: 100%; height: 100%; margin: 0;}</style><link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
   <div class="deck">
     
     <div class="card card--character">
@@ -439,7 +440,7 @@ body{margin:0;}
     <div class="card card--event">
       <img src="/media/img/events/temporal.svg" class="card__img--event">
       <h2 class="card__title">Estoy seguro de que él no es</h2>
-      <p class="card__description">Todos los Aldeanos en juego se levantan. Luego el vecino a la izquierda del último jugador eliminado designa a un Aldeano al que garantiza la inocencia. Una vez hecho esto, el jugador que ha hablado se sienta y cede el turno a la persona que ha mencionado, que deberá declararse inocente si quiere sobrevivir. Así sucesivamente hasta el último jugador levantado. Este último jugador es la víctima del voto del pueblo. <b>Atención:</b>en esta variante, los hombres lobo pueden fácilmente declararse inocente unos a otros y escapar así de su castigo justo. Hay que estar muy atentos a quién declara inocente a quién. El pueblo debe procurar que los hombreslobo sean los últimos que hay que votar para asegurarse que eliminan a uno.</p>
+      <p class="card__description">Todos los Aldeanos en juego se levantan. Luego el vecino a la izquierda del último jugador eliminado designa a un Aldeano al que garantiza la inocencia. Ahora, el jugador que ha hablado se sienta y la persona que ha mencionado, deberá declararse inocente si quiere sobrevivir. Así sucesivamente hasta el último jugador levantado. Este último jugador es la víctima del pueblo. <b>Atención:</b>en esta variante, los hombres lobo pueden fácilmente declararse inocente unos a otros y escapar. Hay que estar muy atentos a quién declara inocente a quién. El pueblo debe procurar que los hombres lobo sean los últimos para asegurarse que eliminan a uno.</p>
     </div>
     <div class="card card--event">
       <img src="/media/img/events/temporal.svg" class="card__img--event">
@@ -492,286 +493,384 @@ body{margin:0;}
       <p class="card__description">El acusado del linchamiento podrá pedir clemencia. Para recibir el perdón del pueblo, tendrá que acontentarlo haciendo lo que los aldeanos le pidan que haga.</p>
     </div>
     
+    <div class="card card--marker">
+      <img src="/media/img/voodoo-doll.svg" class="card__img--marker">
+    </div>
   </div>
   <div class="deck deck--back">
     
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
         <div class="card card--back card--character">
           <img src="/media/img/detective.svg" class="card__img--back card__img--character--back">
+          <span class="card__title--back">? ? ?</span>
         </div>
     
     
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
         <div class="card card--back card--event">
-          <img src="/media/img/detective.svg" class="card__img--back card__img--event--back">
+          <img src="/media/img/moon.svg" class="card__img--back card__img--event--back">
+          <span class="card__title--back">Evento</span>
         </div>
     
+        <div class="card card--back card--marker" style="visibility: hidden;">
+          <img src="/media/img/detective.svg" class="card__img--back card__img--marker--back">
+        </div>
   </div>

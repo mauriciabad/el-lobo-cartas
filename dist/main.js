@@ -82,12 +82,12 @@ function generateCardBack(type, times) {
     if (times === void 0) { times = 1; }
     switch (type) {
         case CardType.character:
-            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"/media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n        </div>").repeat(times);
+            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"/media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n          <span class=\"card__title--back\">? ? ?</span>\n        </div>").repeat(times);
         case CardType.profession:
-            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"/media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n        </div>").repeat(times);
+            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"/media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n          <span class=\"card__title--back\">? ? ?</span>\n        </div>").repeat(times);
         case CardType.event:
-            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"/media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n        </div>").repeat(times);
+            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"/media/img/moon.svg\" class=\"card__img--back card__img--" + type + "--back\">\n          <span class=\"card__title--back\">Evento</span>\n        </div>").repeat(times);
         case CardType.marker:
-            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"/media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n        </div>").repeat(times);
+            return ("\n        <div class=\"card card--back card--" + type + "\" style=\"visibility: hidden;\">\n          <img src=\"/media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n        </div>").repeat(times);
     }
 }

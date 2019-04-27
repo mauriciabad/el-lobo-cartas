@@ -141,7 +141,7 @@
   },
   {
     "title": "Estoy seguro de que él no es",
-    "description": "Todos los Aldeanos en juego se levantan. Luego el vecino a la izquierda del último jugador eliminado designa a un Aldeano al que garantiza la inocencia. Una vez hecho esto, el jugador que ha hablado se sienta y cede el turno a la persona que ha mencionado, que deberá declararse inocente si quiere sobrevivir. Así sucesivamente hasta el último jugador levantado. Este último jugador es la víctima del voto del pueblo. <b>Atención:</b>en esta variante, los hombres lobo pueden fácilmente declararse inocente unos a otros y escapar así de su castigo justo. Hay que estar muy atentos a quién declara inocente a quién. El pueblo debe procurar que los hombreslobo sean los últimos que hay que votar para asegurarse que eliminan a uno.",
+    "description": "Todos los Aldeanos en juego se levantan. Luego el vecino a la izquierda del último jugador eliminado designa a un Aldeano al que garantiza la inocencia. Ahora, el jugador que ha hablado se sienta y la persona que ha mencionado, deberá declararse inocente si quiere sobrevivir. Así sucesivamente hasta el último jugador levantado. Este último jugador es la víctima del pueblo. <b>Atención:</b>en esta variante, los hombres lobo pueden fácilmente declararse inocente unos a otros y escapar. Hay que estar muy atentos a quién declara inocente a quién. El pueblo debe procurar que los hombres lobo sean los últimos para asegurarse que eliminan a uno.",
     "duration": "temporal"
   },
   {

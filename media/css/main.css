@@ -20,10 +20,11 @@ body{margin:0;}
 .card__description{font-size: 0.35cm; line-height: 0.4cm;}
 .card__img{height: 3cm; margin: 0.5cm 0 0;}
 .card__img--back{height: 3cm; margin: 1cm 0 0;}
-.card--back::after{content: "?  ?  ?";display: block; font-size: 1cm; line-height: 0.9; margin: 1cm 0 0;}
+.card__title--back{display: block; font-size: 1cm; line-height: 0.9; margin: 1cm 0 0;}
 .card--event{border-color: #593494;}
-.card--marker{border-color: #008a7a;}
+.card--marker{border-color: #008a7a; width: 4cm; height: 4cm; border-radius: 100%; padding: 0.5cm}
 .card--profession{border-color: #FF5827;}
 .card--character{border-color: #222;}
 .deck {page-break-after: always; clear: both;}
 .card__img--event{position: absolute; top: 50%; left: 0; right: 0; z-index: -1; opacity: 0.333;}
+.card__img--marker--back{width: 100%; height: 100%; margin: 0;}
