@@ -32,7 +32,7 @@ interface MarkerCard {
 }
 enum EventDuration{
   temporal   = 'temporal',
-  inmediato  = 'inmediato',
+  inmediato  = 'inmediata',
   permanente = 'permanente',
 }
 enum CardType{
@@ -59,7 +59,12 @@ interface Teams{
 const fs = require('fs');
 // const pdf = require('html-pdf');
 
-const cards: Deck = JSON.parse(fs.readFileSync('cards.json'));  
+const cards: Deck = {
+  characters:  JSON.parse(fs.readFileSync('characters.json')),
+  professions: JSON.parse(fs.readFileSync('professions.json')),
+  events:      JSON.parse(fs.readFileSync('events.json')),
+  markers:     JSON.parse(fs.readFileSync('markers.json')),
+}  
 const teams: Teams = JSON.parse(fs.readFileSync('teams.json'));
 
 var html = '<link href="main.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">';

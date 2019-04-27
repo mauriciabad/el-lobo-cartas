@@ -1,0 +1,197 @@
+[
+  {
+    "title": "Fiebre sábado noche",
+    "description": "Esta noche los jóvenes del pueblo se van de verbena y no vuelven hasta el amanecer. Cada jugador dice su edad. La mitad de jugadores de menor edad forman el grupo de verbeneros. No podrán debatir ni votar esta ronda. Los “viejos” no podrán votar en contra de ellos. Además, durante la fase de los hombres lobo, no podrán devorar ni ser devorados.",
+    "duration": "immediata"
+  },
+  {
+    "title": "Toque mortal",
+    "description": "A partir de ahora y hasta el final de la partida, en vez de ser señalada, la victima del ataque de los lobos deberá ser tocada por uno de ellos. En caso contrario, no habrá victima esa noche.",
+    "duration": "permanente"
+  },
+  {
+    "title": "El pequeñito",
+    "description": "El jugador más joven del pueblo será el pequeñito. Este se va a la aldea vecina (Se le mueve a otra sala y no puede participar en las votaciones del día ni en la noche siguiente, por lo que no puede ser linchado de día ni devorado de noche). Cuando vuelve, al día siguiente, su voto valdrá triple y los demás jugadores podrán ponerle al día de lo acontecido.",
+    "duration": "temporal"
+  },
+  {
+    "title": "Pacto con el diablo",
+    "description": "Tan pronto como se sepa el veredicto del pueblo, el acusado puede hacer un pacto con el diablo en vez ser linchado. Pero cuidado, si al final del juego este jugador está entre los vencidos, será excluido de la partida siguiente. (Esta será la deuda que debe de pagar al diablo)",
+    "duration": "immediata"
+  },
+  {
+    "title": "Castigo",
+    "description": "Para hacerle pagar su desgracia, el último jugador eliminado nombra a un jugador. Éste será eliminado salvo que 2 personas testifiquen a su favor. Los testigos vendrán a besarle la mejilla para demostrar su apoyo. Si nadie se levanta, el jugador tiene derecho a apelar para suscitar compasión. Sino, muere.",
+    "duration": "immediata"
+  },
+  {
+    "title": "San Felipe",
+    "description": "En honor del gran San Felipe el marinero, el pueblo elige un verdadero líder carismático. Si el pueblo ya tiene elegido un alguacil, lo destituye por incompetente y elige uno nuevo. El alguacil elegido debe jurar el cargo: “Yo seguiré la voz de San Felipe y protegeré al pueblo”.",
+    "duration": "temporal"
+  },
+  {
+    "title": "Inundación",
+    "description": "Las inundaciones han transformado el pueblo en un pueblo lacustre (a la orilla de un lago). Los jugadores se han refugiado en el albergue y las jugadoras en la iglesia. El voto del día se anula porque están separados, pero los hombres lobo pueden cazar dentro del edificio en donde se han refugiado. (Puede haber dos víctimas, pero esta regla solo se aplica si quedan al menos 6 jugadores).",
+    "duration": "immediata"
+  },
+  {
+    "title": "Sonambulismo",
+    "description": "La vidente se vuelve sonámbula y desde entonces hasta el final de la partida el narrador dará en voz alta la identidad secreta del personaje que pregunte la vidente. Nunca se sabrá jamás de que jugador era la identidad.",
+    "duration": "permanente"
+  },
+  {
+    "title": "Fin de la cosecha",
+    "description": "Todo el mundo está un poco cansado. Es una ronda de juego normal, no pasa nada especial, salvo que el narrador decida aplicar la variante “Fiesta de la cosecha en el pueblo”.",
+    "duration": "immediata"
+  },
+  {
+    "title": "El espectro",
+    "description": "El siguiente jugador designado por los hombres lobo, abre los ojos (los hombres lobo los tienen abiertos). El narrador toca a ese jugador en la cabeza y se convierte en hombre lobo. Luego este jugador designa a uno de los antiguos hombres lobo y se le elimina. El narrador cambia las cartas de los jugadores de uno por otro antes de que se despierte el pueblo",
+    "duration": "permanente"
+  },
+  {
+    "title": "Domingo radiante",
+    "description": "Al turno no le sucede nada en particular salvo que el narrador quiera aplicar 'Fascinación licantrópica'.",
+    "duration": "immediata"
+  },
+  {
+    "title": "Ni yo ni lobo",
+    "description": "Por superstición la gente del pueblo ha elegido no pronunciar las palabras “lobo” o “yo”. En caso de que alguien contravenga estas reglas, le será retirado el voto.",
+    "duration": "permanente"
+  },
+  {
+    "title": "Recolección silvestre",
+    "description": "Todas las jugadoras salen al bosque a recoger misteriosas plantas, indispensables para la poción de la bruja. Ellas entrarán en la aldea al esconderse el sol. Ellas no participan ni en el debate ni en los votos, ni pueden ser linchadas este turno. La bruja recupera una de sus pociones justo antes de la noche.",
+    "duration": "temporal"
+  },
+  {
+    "title": "Noche de locos",
+    "description": "La siguiente noche los hombre lobo se vuelven videntes y cada uno por turno podrá preguntar por otro jugador. La vidente, el cazador y la bruja, se vuelven hombres lobo y esa noche se despiertan juntos y deben de comer a alguien. (La niña juega un turno normal).",
+    "duration": "temporal"
+  },
+  {
+    "title": "Malvado Bredin",
+    "description": "El pueblo duerme y el primer eliminado por los hombres lobo se convierte en su ayudante. Este deberá abrir los ojos y será su cómplice por el día. Sigue siendo un campesino, pero sólo gana si ganan los Hombres lobo.",
+    "duration": "permanente"
+  },
+  {
+    "title": "Buenas Maneras",
+    "description": "Está prohibido interrumpir en las votaciones. Esto lo debe vigilar el narrador. Todos los jugadores que interrumpan la palabra a otro jugador no podrán votar este turno.",
+    "duration": "immediata"
+  },
+  {
+    "title": "Milagro",
+    "description": "La última víctima de los hombres lobo no ha sido realmente eliminada. Ésta se desmaya de miedo frente a ellos así que le perdonan la vida. Se encuentra a su espíritu y vuelve a la partida pero como un simple aldeano (Si tenía poderes).",
+    "duration": "immediata"
+  },
+  {
+    "title": "Gran desconfianza",
+    "description": "Cada aldeano debe elegir a sus dos amigos favoritos señalándolos con las manos. Los votos se hacen a la vez. Las personas que no hayan sido votadas se eliminan del juego. (Esto sustituye al voto cotidiano).",
+    "duration": "immediata"
+  },
+  {
+    "title": "Dia de locos",
+    "description": "Algunos personajes cambian sus poderes. Flautista por vidente, cazador por niña, protector por anciano. Los enamorados se odiarán y deberán de votar obligatoriamente el uno por el otro.",
+    "duration": "permanente"
+  },
+  {
+    "title": "Influencias",
+    "description": "El próximo voto se hará por turnos. (Es el último eliminado el que elige al primer votante). Éste dejará el brazo levantado señalando a su voto. Luego hacia la izquierda todos harán lo mismo sucesivamente. (El resultado del voto se cuenta como siempre).",
+    "duration": "temporal"
+  },
+  {
+    "title": "Eclipse",
+    "description": "Esta mañana todos los habitantes del pueblo sufren mal de luna. Los aldeanos se cabrean unos con otros y se vuelven la espalda los unos a los otros. Debaten sin mirarse. El narrador quitará la posibilidad de votar a los que se lleven la contraria. Volverán a mirarse sólo para votar.",
+    "duration": "temporal"
+  },
+  {
+    "title": "Entusiasmo",
+    "description": "Animado por los excepcionales resultados de los linchamientos, el pueblo se embala. Si el próximo jugador en ser eliminado es un hombre lobo, el pueblo podrá votar una segunda vez inmediatamente y sin debate",
+    "duration": "immediata"
+  },
+  {
+    "title": "Retorno del fuego",
+    "description": "La siguiente noche si los hombres lobo nombran a un simple aldeano para devorar, se transforma en hombre lobo (Si los hombres lobo no se acaban de decidir, no muere nadie); En caso contrario, la víctima sobrevive y el hombre lobo a su izquierda es fulminado por el fuego. EL narrador debe cambiar su carta sigilosamente.",
+    "duration": "temporal"
+  },
+  {
+    "title": "Verdugo",
+    "description": "Para no mancharse las manos de sangre, el pueblo nombra a un Verdugo. En lo sucesivo y hasta el final del juego, el personaje de la victima de los hombres lobo solo lo conocerá el Verdugo y no lo enseñará jamás. Si muere el verdugo, nombrará a su sucesor.",
+    "duration": "permanente"
+  },
+  {
+    "title": "Entierro",
+    "description": "Los hombres lobo una vez saciados, entierran los restos de su víctima. De ahora en adelante y hasta el final del juego, la identidad de las víctimas no será revelada a nadie del juego.",
+    "duration": "permanente"
+  },
+  {
+    "title": "Descontento",
+    "description": "Decepcionados por los últimos malos resultados, el pueblo se embala. Si el próximo eliminado no es un hombre lobo, volverán a votar pero sin debatir quedando eliminado también este segundo sospechoso.",
+    "duration": "immediata"
+  },
+  {
+    "title": "Pesadilla",
+    "description": "Una persona del pueblo ha tenido un sueño en el que se le aparecía una persona con facciones de lobo asesino. Al despertar al día siguiente, sin dilación y empezando por el vecino de la izquierda del ultimo eliminado, cada jugador debe acusar a un aldeano. El o los más votados en caso de empate serán eliminados.",
+    "duration": "immediata"
+  },
+  {
+    "title": "Lunes sombrío",
+    "description": "Es un día triste sin historia. No sucede nada salvo que el narrador quiera aplicar “Estoy seguro de que él no es”.",
+    "duration": "immediata"
+  },
+  {
+    "title": "Estoy seguro de que él no es",
+    "description": "Todos los Aldeanos en juego se levantan. Luego el vecino a la izquierda del último jugador eliminado designa a un Aldeano al que garantiza la inocencia. Una vez hecho esto, el jugador que ha hablado se sienta y cede el turno a la persona que ha mencionado, que deberá declararse inocente si quiere sobrevivir. Así sucesivamente hasta el último jugador levantado. Este último jugador es la víctima del voto del pueblo. <b>Atención:</b>en esta variante, los hombres lobo pueden fácilmente declararse inocente unos a otros y escapar así de su castigo justo. Hay que estar muy atentos a quién declara inocente a quién. El pueblo debe procurar que los hombreslobo sean los últimos que hay que votar para asegurarse que eliminan a uno.",
+    "duration": "temporal"
+  },
+  {
+    "title": "Ir de caza",
+    "description": "Esta tarde los hombres del pueblo van a cazar y no vuelve hasta el amanecer. Éstos no participan en los votos ni debates ni pueden ser linchados ni devorar o ser devorados por los hombres lobo.",
+    "duration": "temporal"
+  },
+  {
+    "title": "Almuerzo para señores",
+    "description": "Esta tarde los veteranos del pueblo deciden organizar un banquete y no vuelve hasta el amanecer. Cada uno dice su edad y se toma a la mitad más mayor del pueblo y son el grupo del banquete. Éstos no participan en los votos ni debates y no pueden ser linchados ni devorar o ser devorados por los hombre lobo.",
+    "duration": "temporal"
+  },
+  {
+    "title": "El gran Hervé",
+    "description": "Hoy el pueblo celebra el aniversario del gran Hervé. Acto seguido al veredicto del tribunal, se tira una moneda. SI sale cara, el condenado se elimina y grita “Te aborrezco Hervé”; si sale cruz, se salva y grita “Muchas gracias Gran Hervé”.",
+    "duration": "permanente"
+  },
+  {
+    "title": "El terremoto",
+    "description": "Esta noche ha habido un terrible terremoto en el pueblo. A causa de este desastre, algunas cartas de algunos jugadores han cambiado.",
+    "duration": "immediata"
+  },
+  {
+    "title": "Noche de tormenta",
+    "description": "Esta noche se ha pronosticado una gran tormenta. Todos los jugadores deberán hacer ruido (dando palmas, golpes en una mesa, etc.) durante la noche. Los jugadores que actúan de noche no deberán preocuparse tanto por el ruido.",
+    "duration": "temporal"
+  },
+  {
+    "title": "Esto creo yo!",
+    "description": "Para votar, esta vez tendréis que escribir el nombre de la persona que creaís que es un lobo en un trozo de papel. Éste lo entregareis al narrador, que hará un recuento, la persona con más votos será la víctima del linchamiento (En caso de empate, se procede a una votación normal SOLO entre esos jugadores). ¡Cuidado! Los lobos también van a escribir en un papel.",
+    "duration": "temporal"
+  },
+  {
+    "title": "Cállate!",
+    "description": "Esta noche, la última víctima del pueblo podrá señalar a un jugador el cual no va a poder hablar durante el siguiente dia. El narrador se encargará de anunciarlo.",
+    "duration": "temporal"
+  },
+  {
+    "title": "Dos pájaros de un tiro",
+    "description": "Si quedan más de 5 jugadores vivos, y la víctima del linchamiento ha resultado ser un lobo, también morirá el siguiente lobo que quede a la izquierda del acusado.",
+    "duration": "temporal"
+  },
+  {
+    "title": "Pido clemencia!",
+    "description": "El acusado del linchamiento podrá pedir clemencia. Para recibir el perdón del pueblo, tendrá que acontentarlo haciendo lo que los aldeanos le pidan que haga.",
+    "duration": "temporal"
+  },
+  {
+    "title": "Pido clemencia!",
+    "description": "El acusado del linchamiento podrá pedir clemencia. Para recibir el perdón del pueblo, tendrá que acontentarlo haciendo lo que los aldeanos le pidan que haga.",
+    "duration": "temporal"
+  }
+]
