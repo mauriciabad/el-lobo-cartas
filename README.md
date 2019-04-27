@@ -1,17 +1,37 @@
-# El Lobo
+# El Lobo - Juego de cartas
 
-Takes cards.json and deck.json and generates a pdf file
+Takes the JSONs inside `data` folder and generates [dist/deck.pdf](dist/deck.pdf) and [dist/deck.html](dist/deck.html) with the deck of cards.
 
-To intall dependencies:
+## Commands
 
-```bash
-sudo npm install html-pdf
-```
-
-To run:
+### Intall
 
 ```bash
-tsc main.ts --lib ESNext --downlevelIteration && sudo node main.js
+sudo apt-get install libfontconfig
+npm i
 ```
 
-It will output the card deck into /deck.html
+### Run
+
+```bash
+npm start
+```
+
+## Resources
+
+We use [Flat Icon](https://www.flaticon.com) images.
+
+### Aldeanos
+
+https://www.flaticon.com/packs/avatar-63
+https://www.flaticon.com/packs/profession-avatars-5
+
+## Ideas
+
+policia: manda a la carzel a quien quiere y este no puede hablar hasta el siguiente dia.
+
+## TODO list
+
+- Cambiar descripcións a primera persona (que es dirigeixi a qui la llegeix)
+- Buscar imatges
+- Actualitzar rol, identitat, ofici... (types) - Equipo (rodoneta adalt)

@@ -1,0 +1,25 @@
+{
+  "name": "lobo",
+  "version": "1.0.0",
+  "description": "Juego de cartas",
+  "main": "dist/main.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "html-pdf": "^2.2.0",
+    "phantomjs-prebuilt": "^2.1.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "tsc && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciabad/Lobo.git"
+  },
+  "author": "Maurici Abad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauriciabad/Lobo/issues"
+  },
+  "homepage": "https://github.com/mauriciabad/Lobo#readme"
+}

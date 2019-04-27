@@ -14,6 +14,7 @@ body{margin:0;}
   box-sizing: border-box;
   border-radius: 0.25cm;
   overflow: hidden;
+  position: relative;
 }
 .card__title{font-size: 0.8cm; line-height: 0.9; margin: 0.25cm 0 0.25cm;}
 .card__description{font-size: 0.35cm; line-height: 0.4cm;}
@@ -25,3 +26,4 @@ body{margin:0;}
 .card--profession{border-color: #FF5827;}
 .card--character{border-color: #222;}
 .deck {page-break-after: always; clear: both;}
+.card__img--event{position: absolute; top: 50%; left: 0; right: 0; z-index: -1; opacity: 0.333;}

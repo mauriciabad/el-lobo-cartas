@@ -2,7 +2,7 @@
   {
     "title": "Fiebre sábado noche",
     "description": "Esta noche los jóvenes del pueblo se van de verbena y no vuelven hasta el amanecer. Cada jugador dice su edad. La mitad de jugadores de menor edad forman el grupo de verbeneros. No podrán debatir ni votar esta ronda. Los “viejos” no podrán votar en contra de ellos. Además, durante la fase de los hombres lobo, no podrán devorar ni ser devorados.",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "Toque mortal",
@@ -17,12 +17,12 @@
   {
     "title": "Pacto con el diablo",
     "description": "Tan pronto como se sepa el veredicto del pueblo, el acusado puede hacer un pacto con el diablo en vez ser linchado. Pero cuidado, si al final del juego este jugador está entre los vencidos, será excluido de la partida siguiente. (Esta será la deuda que debe de pagar al diablo)",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "Castigo",
     "description": "Para hacerle pagar su desgracia, el último jugador eliminado nombra a un jugador. Éste será eliminado salvo que 2 personas testifiquen a su favor. Los testigos vendrán a besarle la mejilla para demostrar su apoyo. Si nadie se levanta, el jugador tiene derecho a apelar para suscitar compasión. Sino, muere.",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "San Felipe",
@@ -32,7 +32,7 @@
   {
     "title": "Inundación",
     "description": "Las inundaciones han transformado el pueblo en un pueblo lacustre (a la orilla de un lago). Los jugadores se han refugiado en el albergue y las jugadoras en la iglesia. El voto del día se anula porque están separados, pero los hombres lobo pueden cazar dentro del edificio en donde se han refugiado. (Puede haber dos víctimas, pero esta regla solo se aplica si quedan al menos 6 jugadores).",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "Sonambulismo",
@@ -42,7 +42,7 @@
   {
     "title": "Fin de la cosecha",
     "description": "Todo el mundo está un poco cansado. Es una ronda de juego normal, no pasa nada especial, salvo que el narrador decida aplicar la variante “Fiesta de la cosecha en el pueblo”.",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "El espectro",
@@ -52,7 +52,7 @@
   {
     "title": "Domingo radiante",
     "description": "Al turno no le sucede nada en particular salvo que el narrador quiera aplicar 'Fascinación licantrópica'.",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "Ni yo ni lobo",
@@ -77,17 +77,17 @@
   {
     "title": "Buenas Maneras",
     "description": "Está prohibido interrumpir en las votaciones. Esto lo debe vigilar el narrador. Todos los jugadores que interrumpan la palabra a otro jugador no podrán votar este turno.",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "Milagro",
     "description": "La última víctima de los hombres lobo no ha sido realmente eliminada. Ésta se desmaya de miedo frente a ellos así que le perdonan la vida. Se encuentra a su espíritu y vuelve a la partida pero como un simple aldeano (Si tenía poderes).",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "Gran desconfianza",
     "description": "Cada aldeano debe elegir a sus dos amigos favoritos señalándolos con las manos. Los votos se hacen a la vez. Las personas que no hayan sido votadas se eliminan del juego. (Esto sustituye al voto cotidiano).",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "Dia de locos",
@@ -107,7 +107,7 @@
   {
     "title": "Entusiasmo",
     "description": "Animado por los excepcionales resultados de los linchamientos, el pueblo se embala. Si el próximo jugador en ser eliminado es un hombre lobo, el pueblo podrá votar una segunda vez inmediatamente y sin debate",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "Retorno del fuego",
@@ -127,17 +127,17 @@
   {
     "title": "Descontento",
     "description": "Decepcionados por los últimos malos resultados, el pueblo se embala. Si el próximo eliminado no es un hombre lobo, volverán a votar pero sin debatir quedando eliminado también este segundo sospechoso.",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "Pesadilla",
     "description": "Una persona del pueblo ha tenido un sueño en el que se le aparecía una persona con facciones de lobo asesino. Al despertar al día siguiente, sin dilación y empezando por el vecino de la izquierda del ultimo eliminado, cada jugador debe acusar a un aldeano. El o los más votados en caso de empate serán eliminados.",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "Lunes sombrío",
     "description": "Es un día triste sin historia. No sucede nada salvo que el narrador quiera aplicar “Estoy seguro de que él no es”.",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "Estoy seguro de que él no es",
@@ -162,7 +162,7 @@
   {
     "title": "El terremoto",
     "description": "Esta noche ha habido un terrible terremoto en el pueblo. A causa de este desastre, algunas cartas de algunos jugadores han cambiado.",
-    "duration": "immediata"
+    "duration": "inmediata"
   },
   {
     "title": "Noche de tormenta",
