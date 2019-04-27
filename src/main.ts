@@ -68,8 +68,9 @@ const cards: Deck = {
 //console.log(cards);
 
 const teams: Teams = JSON.parse(fs.readFileSync('data/teams.json'));
+const css: string = fs.readFileSync('media/css/main.css');
 
-var html = '<link href="/media/css/main.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">';
+var html = `<style>${css}</style><link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">`;
 
 html += generateCardDeck(cards);
 // console.log(html);

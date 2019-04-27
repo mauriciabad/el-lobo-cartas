@@ -22,7 +22,8 @@ var cards = {
 };
 //console.log(cards);
 var teams = JSON.parse(fs.readFileSync('data/teams.json'));
-var html = '<link href="/media/css/main.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">';
+var css = fs.readFileSync('media/css/main.css');
+var html = "<style>" + css + "</style><link href=\"https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i\" rel=\"stylesheet\">";
 html += generateCardDeck(cards);
 // console.log(html);
 fs.writeFile("dist/deck.html", html, function (err) {

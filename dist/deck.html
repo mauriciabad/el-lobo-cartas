@@ -1,4 +1,32 @@
-<link href="/media/css/main.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+<style>*{font-family: 'Lora', serif;}
+body{margin:0;}
+.card{
+  float: left;
+  width: 6.4cm;
+  height: 8.9cm;
+  text-align: center;
+  border: solid #222 0.35cm;
+  padding: 0.25cm;
+  /* outline: solid #000 0.05cm; */
+  margin: 0.05cm;
+  /* margin: -0.02em; */
+  /* border: dashed rgb(214, 197, 197) 0.02cm; */
+  box-sizing: border-box;
+  border-radius: 0.25cm;
+  overflow: hidden;
+  position: relative;
+}
+.card__title{font-size: 0.8cm; line-height: 0.9; margin: 0.25cm 0 0.25cm;}
+.card__description{font-size: 0.35cm; line-height: 0.4cm;}
+.card__img{height: 3cm; margin: 0.5cm 0 0;}
+.card__img--back{height: 3cm; margin: 1cm 0 0;}
+.card--back::after{content: "?  ?  ?";display: block; font-size: 1cm; line-height: 0.9; margin: 1cm 0 0;}
+.card--event{border-color: #593494;}
+.card--marker{border-color: #008a7a;}
+.card--profession{border-color: #FF5827;}
+.card--character{border-color: #222;}
+.deck {page-break-after: always; clear: both;}
+.card__img--event{position: absolute; top: 50%; left: 0; right: 0; z-index: -1; opacity: 0.333;}</style><link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
   <div class="deck">
     
     <div class="card card--character">
