@@ -32,7 +32,8 @@ fs.writeFile("dist/deck.html", html, function (err) {
 });
 var options = {
     "orientation": "landscape",
-    "border": "1cm"
+    "border": "1cm",
+    "format": "A3"
 };
 pdf.create(html, options).toFile('./dist/deck.pdf', function (err, res) { if (err) {
     console.error(err);
