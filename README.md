@@ -23,8 +23,8 @@ We use [Flat Icon](https://www.flaticon.com) images.
 
 ### Aldeanos
 
-https://www.flaticon.com/packs/avatar-63
-https://www.flaticon.com/packs/profession-avatars-5
+[https://www.flaticon.com/packs/avatar-63](https://www.flaticon.com/packs/avatar-63)
+[https://www.flaticon.com/packs/profession-avatars-5](https://www.flaticon.com/packs/profession-avatars-5)
 
 ## Ideas
 
