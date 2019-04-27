@@ -1,7 +1,7 @@
 [
   {
     "title": "Lobo",
-    "description": "Por la noche, entre todos los lobos, señaláis a quien queréis matar. <br><b>Objetivo</b>: matar a todos los aldeanos.",
+    "description": "Por la noche, entre todos los lobos, señaláis a quien queréis matar.",
     "img": "werewolf.svg",
     "amount": 8,
     "team": "lobos"
@@ -80,7 +80,7 @@
   {
     "title": "Hipnotizador",
     "description": "",
-    "img": "hypnosis.svg.svg",
+    "img": "hypnosis.svg",
     "amount": 1,
     "team": "aldeanos"
   },

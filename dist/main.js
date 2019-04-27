@@ -30,7 +30,11 @@ fs.writeFile("dist/deck.html", html, function (err) {
     if (err)
         return console.log(err);
 });
-pdf.create(html).toFile('./dist/deck.pdf', function (err, res) { if (err) {
+var options = {
+    "orientation": "landscape",
+    "border": "1cm"
+};
+pdf.create(html, options).toFile('./dist/deck.pdf', function (err, res) { if (err) {
     console.error(err);
 } });
 // ----------- FUNCTIONS ------------ //
@@ -43,51 +47,51 @@ function generateCharacterCard(info) {
     if (Array.isArray(info.img)) {
         var cardHTML = '';
         for (var i = 0; i < info.amount; i++) {
-            cardHTML += "\n      <div class=\"card card--character\">\n        <img src=\"/media/img/" + info.img[i % info.img.length] + "\" class=\"card__img\">\n        <h2 class=\"card__title\">" + info.title + "</h2>\n        <p class=\"card__description\">" + info.description + "</p>\n      </div>";
+            cardHTML += "\n      <div class=\"card card--character\">\n        <img src=\"../media/img/" + info.img[i % info.img.length] + "\" class=\"card__img\">\n        <h2 class=\"card__title\">" + info.title + "</h2>\n        <p class=\"card__description\">" + info.description + "</p>\n      </div>";
         }
         return cardHTML;
     }
     else {
-        return ("\n    <div class=\"card card--character\">\n      <img src=\"/media/img/" + info.img + "\" class=\"card__img\">\n      <h2 class=\"card__title\">" + info.title + "</h2>\n      <p class=\"card__description\">" + info.description + "</p>\n    </div>").repeat(info.amount || 1);
+        return ("\n    <div class=\"card card--character\">\n      <img src=\"../media/img/" + info.img + "\" class=\"card__img\">\n      <h2 class=\"card__title\">" + info.title + "</h2>\n      <p class=\"card__description\">" + info.description + "</p>\n    </div>").repeat(info.amount || 1);
     }
 }
 function generateProfessionCard(info) {
     if (Array.isArray(info.img)) {
         var cardHTML = '';
         for (var i = 0; i < info.amount; i++) {
-            cardHTML += "\n      <div class=\"card card--profession\">\n        <img src=\"/media/img/" + info.img[i % info.img.length] + "\" class=\"card__img\">\n        <h2 class=\"card__title\">" + info.title + "</h2>\n        <p class=\"card__description\">" + info.description + "</p>\n      </div>";
+            cardHTML += "\n      <div class=\"card card--profession\">\n        <img src=\"../media/img/" + info.img[i % info.img.length] + "\" class=\"card__img\">\n        <h2 class=\"card__title\">" + info.title + "</h2>\n        <p class=\"card__description\">" + info.description + "</p>\n      </div>";
         }
         return cardHTML;
     }
     else {
-        return ("\n    <div class=\"card card--profession\">\n      <img src=\"/media/img/" + info.img + "\" class=\"card__img\">\n      <h2 class=\"card__title\">" + info.title + "</h2>\n      <p class=\"card__description\">" + info.description + "</p>\n    </div>").repeat(info.amount || 1);
+        return ("\n    <div class=\"card card--profession\">\n      <img src=\"../media/img/" + info.img + "\" class=\"card__img\">\n      <h2 class=\"card__title\">" + info.title + "</h2>\n      <p class=\"card__description\">" + info.description + "</p>\n    </div>").repeat(info.amount || 1);
     }
 }
 function generateEventCard(info) {
-    return ("\n    <div class=\"card card--event\">\n      <img src=\"/media/img/events/" + info.duration + ".svg\" class=\"card__img--event\">\n      <h2 class=\"card__title\">" + info.title + "</h2>\n      <p class=\"card__description\">" + info.description + "</p>\n    </div>").repeat(info.amount || 1);
+    return ("\n    <div class=\"card card--event\">\n      <img src=\"../media/img/events/" + info.duration + ".svg\" class=\"card__img--event\">\n      <h2 class=\"card__title\">" + info.title + "</h2>\n      <p class=\"card__description\">" + info.description + "</p>\n    </div>").repeat(info.amount || 1);
 }
 function generateMarkerCard(info) {
     if (Array.isArray(info.img)) {
         var cardHTML = '';
         for (var i = 0; i < info.amount; i++) {
-            cardHTML += "\n      <div class=\"card card--marker\">\n        <img src=\"/media/img/" + info.img[i % info.img.length] + "\" class=\"card__img--marker\">\n      </div>";
+            cardHTML += "\n      <div class=\"card card--marker\">\n        <img src=\"../media/img/" + info.img[i % info.img.length] + "\" class=\"card__img--marker\">\n      </div>";
         }
         return cardHTML;
     }
     else {
-        return ("\n    <div class=\"card card--marker\">\n      <img src=\"/media/img/" + info.img + "\" class=\"card__img--marker\">\n    </div>").repeat(info.amount || 1);
+        return ("\n    <div class=\"card card--marker\">\n      <img src=\"../media/img/" + info.img + "\" class=\"card__img--marker\">\n    </div>").repeat(info.amount || 1);
     }
 }
 function generateCardBack(type, times) {
     if (times === void 0) { times = 1; }
     switch (type) {
         case CardType.character:
-            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"/media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n          <span class=\"card__title--back\">? ? ?</span>\n        </div>").repeat(times);
+            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"../media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n          <span class=\"card__title--back\">? ? ?</span>\n        </div>").repeat(times);
         case CardType.profession:
-            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"/media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n          <span class=\"card__title--back\">? ? ?</span>\n        </div>").repeat(times);
+            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"../media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n          <span class=\"card__title--back\">? ? ?</span>\n        </div>").repeat(times);
         case CardType.event:
-            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"/media/img/moon.svg\" class=\"card__img--back card__img--" + type + "--back\">\n          <span class=\"card__title--back\">Evento</span>\n        </div>").repeat(times);
+            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"../media/img/moon.svg\" class=\"card__img--back card__img--" + type + "--back\">\n          <span class=\"card__title--back\">Evento</span>\n        </div>").repeat(times);
         case CardType.marker:
-            return ("\n        <div class=\"card card--back card--" + type + "\" style=\"visibility: hidden;\">\n          <img src=\"/media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n        </div>").repeat(times);
+            return ("\n        <div class=\"card card--back card--" + type + "\" style=\"visibility: hidden;\">\n          <img src=\"../media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n        </div>").repeat(times);
     }
 }
