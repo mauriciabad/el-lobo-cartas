@@ -35,3 +35,4 @@ policia: manda a la carzel a quien quiere y este no puede hablar hasta el siguie
 - Cambiar descripcións a primera persona (que es dirigeixi a qui la llegeix)
 - Buscar imatges
 - Actualitzar rol, identitat, ofici... (types) - Equipo (rodoneta adalt)
+- Posar els oficis
