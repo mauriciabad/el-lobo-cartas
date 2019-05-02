@@ -70,7 +70,7 @@ const cards: Deck = {
 const teams: Teams = JSON.parse(fs.readFileSync('data/teams.json'));
 const css: string = fs.readFileSync('media/css/main.css');
 
-var html = `<style>${css}</style><link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">`;
+var html = `<style>\n${css}\n</style>\n<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">`;
 
 html += generateCardDeck(cards);
 // console.log(html);
@@ -182,26 +182,23 @@ function generateCardBack(type:CardType ,times: number=1): string {
   switch(type){
     case CardType.character:
       return `
-        <div class="card card--back card--${type}">
-          <img src="../media/img/detective.svg" class="card__img--back card__img--${type}--back">
-          <span class="card__title--back">? ? ?</span>
+        <div class="card card--back card--${type}--back">
+          <img src="../media/img/back/back25.jpg" class="card__img--back card__img--${type}--back">
         </div>`.repeat(times);
     case CardType.profession:
       return `
-        <div class="card card--back card--${type}">
-          <img src="../media/img/detective.svg" class="card__img--back card__img--${type}--back">
-          <span class="card__title--back">? ? ?</span>
+        <div class="card card--back card--${type}--back">
+          <img src="../media/img/back/back25.jpg" class="card__img--back card__img--${type}--back">
         </div>`.repeat(times);
     case CardType.event:
       return `
-        <div class="card card--back card--${type}">
-          <img src="../media/img/moon.svg" class="card__img--back card__img--${type}--back">
-          <span class="card__title--back">Evento</span>
+        <div class="card card--back card--${type}--back">
+          <img src="../media/img/back/event.jpg" class="card__img--back card__img--${type}--back">
         </div>`.repeat(times);
     case CardType.marker:
       return `
-        <div class="card card--back card--${type}" style="visibility: hidden;">
-          <img src="../media/img/detective.svg" class="card__img--back card__img--${type}--back">
+        <div class="card card--back card--${type}--back" style="visibility: hidden;">
+          <img src="../media/img/back/back25.jpg" class="card__img--back card__img--${type}--back">
         </div>`.repeat(times);
   }
 }

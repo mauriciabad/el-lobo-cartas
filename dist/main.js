@@ -23,7 +23,7 @@ var cards = {
 //console.log(cards);
 var teams = JSON.parse(fs.readFileSync('data/teams.json'));
 var css = fs.readFileSync('media/css/main.css');
-var html = "<style>" + css + "</style><link href=\"https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i\" rel=\"stylesheet\">";
+var html = "<style>\n" + css + "\n</style>\n<link href=\"https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i\" rel=\"stylesheet\">";
 html += generateCardDeck(cards);
 // console.log(html);
 fs.writeFile("dist/deck.html", html, function (err) {
@@ -87,12 +87,12 @@ function generateCardBack(type, times) {
     if (times === void 0) { times = 1; }
     switch (type) {
         case CardType.character:
-            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"../media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n          <span class=\"card__title--back\">? ? ?</span>\n        </div>").repeat(times);
+            return ("\n        <div class=\"card card--back card--" + type + "--back\">\n          <img src=\"../media/img/back/back25.jpg\" class=\"card__img--back card__img--" + type + "--back\">\n        </div>").repeat(times);
         case CardType.profession:
-            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"../media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n          <span class=\"card__title--back\">? ? ?</span>\n        </div>").repeat(times);
+            return ("\n        <div class=\"card card--back card--" + type + "--back\">\n          <img src=\"../media/img/back/back25.jpg\" class=\"card__img--back card__img--" + type + "--back\">\n        </div>").repeat(times);
         case CardType.event:
-            return ("\n        <div class=\"card card--back card--" + type + "\">\n          <img src=\"../media/img/moon.svg\" class=\"card__img--back card__img--" + type + "--back\">\n          <span class=\"card__title--back\">Evento</span>\n        </div>").repeat(times);
+            return ("\n        <div class=\"card card--back card--" + type + "--back\">\n          <img src=\"../media/img/back/event.jpg\" class=\"card__img--back card__img--" + type + "--back\">\n        </div>").repeat(times);
         case CardType.marker:
-            return ("\n        <div class=\"card card--back card--" + type + "\" style=\"visibility: hidden;\">\n          <img src=\"../media/img/detective.svg\" class=\"card__img--back card__img--" + type + "--back\">\n        </div>").repeat(times);
+            return ("\n        <div class=\"card card--back card--" + type + "--back\" style=\"visibility: hidden;\">\n          <img src=\"../media/img/back/back25.jpg\" class=\"card__img--back card__img--" + type + "--back\">\n        </div>").repeat(times);
     }
 }
