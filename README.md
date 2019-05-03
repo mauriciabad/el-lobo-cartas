@@ -2,6 +2,8 @@
 
 Takes the JSONs inside `data` folder and generates [dist/deck.pdf](dist/deck.pdf) and [dist/deck.html](dist/deck.html) with the deck of cards.
 
+![Screenshoot](media/small_screenshoot.png)
+
 ## Commands
 
 ### Intall
@@ -36,3 +38,7 @@ policia: manda a la carzel a quien quiere y este no puede hablar hasta el siguie
 - Buscar imatges
 - Actualitzar rol, identitat, ofici... (types) - Equipo (rodoneta adalt)
 - Posar els oficis
+
+## Example Cards
+
+![Example Cards](media/big_screenshoot.png)
