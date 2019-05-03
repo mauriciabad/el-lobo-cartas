@@ -7,33 +7,60 @@
     "team": "lobos"
   },
   {
-    "title": "Aldeano",
-    "description": "Durante el día, entre todos los aldeanos, debairéis a quien matar ese día. ",
-    "img": [
-      "villagers/023-singer.svg",
-      "villagers/017-man.svg",
-      "villagers/008-farmer.svg",
-      "villagers/010-hipster.svg",
-      "villagers/021-runner.svg",
-      "villagers/006-constructor.svg",
-      "villagers/028-teacher.svg"
-    ],
-    "amount": 5,
-    "team": "aldeanos"
+    "title": "Lobo Solitario",
+    "description": "Eres un lobo y debes ser la ultima persona en pie.",
+    "img": "werewolf_darck.svg",
+    "amount": 3,
+    "team": "lobos"
   },
   {
-    "title": "Aldeana",
-    "description": "Durante el día, entre todos los aldeanos, debairéis a quien matar ese día. ",
-    "img": [
-      "villagers/014-maid-3.svg",
-      "villagers/012-maid-1.svg",
-      "villagers/020-professor.svg",
-      "villagers/005-chinese.svg",
-      "villagers/003-business-woman.svg",
-      "villagers/032-pretty.svg"
-    ],
-    "amount": 5,
-    "team": "aldeanos"
+    "title": "Lobo rabioso",
+    "description": "Al elegir qué jugador matais los lobos, podrás pasarle la rabia y transformarlo en lobo (mostrando la palma de tu mano al narrador).",
+    "img": "wolf_scary.svg",
+    "amount": 1,
+    "team": "lobos"
+  },
+  {
+    "title": "Lobo feroz",
+    "description": "Después del turno de los lobos, podrás matar a alguien más en secreto. Pierdes el poder cuando matan a un lobo.",
+    "img": "wolf_noisy.svg",
+    "amount": 1,
+    "team": "lobos"
+  },
+  {
+    "title": "Flautista",
+    "description": "Cada noche encanta 1 ó 2 personas. <br><b>Objetivo</b>: encantar a todos los personajes.",
+    "img": "mariachi.svg",
+    "amount": 1,
+    "team": "solitrio"
+  },
+  {
+    "title": "Suicida",
+    "description": "Objetivo: Morir la primera ronda.",
+    "img": "suicide.svg",
+    "amount": 1,
+    "team": "solitario"
+  },
+  {
+    "title": "Asesino en série",
+    "description": "Objetivo: matar a los jugadores que te indique el narrador.",
+    "img": "dagger.svg",
+    "amount": 1,
+    "team": "solitrio"
+  },
+  {
+    "title": "Professor loco",
+    "description": "",
+    "img": "einstein.svg",
+    "amount": 1,
+    "team": "solitario"
+  },
+  {
+    "title": "Monja",
+    "description": "",
+    "img": "nun.svg",
+    "amount": 1,
+    "team": "secta"
   },
   {
     "title": "Adivina",
@@ -99,20 +126,6 @@
     "team": "aldeanos"
   },
   {
-    "title": "Professor loco",
-    "description": "",
-    "img": "einstein.svg",
-    "amount": 1,
-    "team": "solitario"
-  },
-  {
-    "title": "Monja",
-    "description": "",
-    "img": "nun.svg",
-    "amount": 1,
-    "team": "aldeanos"
-  },
-  {
     "title": "Repelente",
     "description": "La primera noche escojes tu polo opuesto. Tienes que llevarle la contraria toda la partida.",
     "img": "mad.svg",
@@ -162,13 +175,6 @@
     "team": "aldeanos"
   },
   {
-    "title": "Flautista",
-    "description": "Cada noche encanta 1 ó 2 personas. <br><b>Objetivo</b>: encantar a todos los personajes.",
-    "img": "mariachi.svg",
-    "amount": 1,
-    "team": "aldeanos"
-  },
-  {
     "title": "Gitana",
     "description": "Una noche le dara el poder a un personaje de hacer una pregunta de Si o No a un muerto la mañana siguiente.",
     "img": "dreamcatcher.svg",
@@ -178,106 +184,107 @@
   {
     "title": "Cuervo",
     "description": "Cada noche puede marcar un jugador como sospechoso, y éste tendrá 1 voto más en contra.",
-    "img": "detective_hat.svg",
+    "img": "raven.svg",
     "amount": 1,
     "team": "aldeanos"
   },
   {
     "title": "Pirómano",
     "description": "Una noche puede convertir alguien en vagabundo.",
-    "img": "detective_hat.svg",
+    "img": "pyromania.svg",
     "amount": 1,
     "team": "aldeanos"
   },
   {
     "title": "Zorro",
     "description": "Cada noche puede señalar un jugador en el centro de un trío. Si hay un lobo el narrador le avisa, en caso contrario perderá su habilidad.",
-    "img": "detective_hat.svg",
+    "img": "fox.svg",
     "amount": 1,
     "team": "aldeanos"
   },
   {
     "title": "Sirvienta fiel",
     "description": "Puede cambiar su personaje por el del jugador que va a ser linchado justo antes de que muestre su carta.",
-    "img": "detective_hat.svg",
+    "img": "maid.svg",
     "amount": 1,
     "team": "aldeanos"
   },
   {
     "title": "Melliza",
     "description": "Se despierta con sus hermanas por la noche y sabrá que son todas inocentes.",
-    "img": "detective_hat.svg",
-    "amount": 1,
+    "img": "twins.svg",
+    "amount": 3,
     "team": "aldeanos"
   },
   {
     "title": "Hermano",
     "description": "Te despiertas con tus hermanos por la noche y sabrás que soys todos inocentes",
-    "img": "detective_hat.svg",
-    "amount": 1,
+    "img": "mad.svg",
+    "amount": 2,
     "team": "aldeanos"
   },
   {
     "title": "Domador de osos",
     "description": "Si tienes un lobo a alguno de tus lados, tu oso gruñirá al amanecer.",
-    "img": "detective_hat.svg",
+    "img": "bear.svg",
     "amount": 1,
     "team": "aldeanos"
   },
   {
     "title": "Actor",
     "description": "Cada noche podrás elegir 1 entre 3 personajes que interpretar hasta la siguiente noche.",
-    "img": "detective_hat.svg",
+    "img": "sunglasses.svg",
     "amount": 1,
     "team": "aldeanos"
   },
   {
     "title": "Caballero de la espada oxidada",
     "description": "Si los lobos te matan, el primer lobo que esté a tu izquierda morirá infectado de tétanos.",
-    "img": "detective_hat.svg",
-    "amount": 1,
-    "team": "aldeanos"
-  },
-  {
-    "title": "Suicida",
-    "description": "Objetivo: Morir la primera ronda.",
-    "img": "detective_hat.svg",
-    "amount": 1,
-    "team": "aldeanos"
-  },
-  {
-    "title": "Asesino en série",
-    "description": "Objetivo: matar a los jugadores que te indique el narrador.",
-    "img": "detective_hat.svg",
-    "amount": 1,
-    "team": "aldeanos"
-  },
-  {
-    "title": "Lobo rabioso",
-    "description": "Al elegir qué jugador matais los lobos, podrás pasarle la rabia y transformarlo en lobo (mostrando la palma de tu mano al narrador).",
-    "img": "detective_hat.svg",
+    "img": "sword.svg",
     "amount": 1,
     "team": "aldeanos"
   },
   {
     "title": "Aldeano-Aldeano",
     "description": "Todos saben quien eres.",
-    "img": "detective_hat.svg",
-    "amount": 1,
-    "team": "aldeanos"
-  },
-  {
-    "title": "Lobo feroz",
-    "description": "Después del turno de los lobos, podrás matar a alguien más en secreto. Pierdes el poder cuando matan a un lobo.",
-    "img": "detective_hat.svg",
+    "img": "boy.svg",
     "amount": 1,
     "team": "aldeanos"
   },
   {
     "title": "Niña",
     "description": "Puedes espiar durante el turno de los lobos. Si te pillan, morirás esa noche.",
-    "img": "detective_hat.svg",
+    "img": "babies.svg",
     "amount": 1,
+    "team": "aldeanos"
+  },
+  {
+    "title": "Aldeano",
+    "description": "Durante el día, entre todos los aldeanos, debairéis a quien matar ese día. ",
+    "img": [
+      "villagers/023-singer.svg",
+      "villagers/017-man.svg",
+      "villagers/008-farmer.svg",
+      "villagers/010-hipster.svg",
+      "villagers/021-runner.svg",
+      "villagers/006-constructor.svg",
+      "villagers/028-teacher.svg"
+    ],
+    "amount": 5,
+    "team": "aldeanos"
+  },
+  {
+    "title": "Aldeana",
+    "description": "Durante el día, entre todos los aldeanos, debairéis a quien matar ese día. ",
+    "img": [
+      "villagers/014-maid-3.svg",
+      "villagers/012-maid-1.svg",
+      "villagers/020-professor.svg",
+      "villagers/005-chinese.svg",
+      "villagers/003-business-woman.svg",
+      "villagers/032-pretty.svg"
+    ],
+    "amount": 5,
     "team": "aldeanos"
   }
 ]
