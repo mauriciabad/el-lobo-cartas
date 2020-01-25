@@ -1,6 +1,6 @@
 # El Lobo - Juego de cartas
 
-Takes the JSONs inside `data` folder and images inside `src/img/normal` and generates [dist/index.pdf](dist/index.pdf) and [dist/index.html](https://el-lobo.netlify.com/) with the deck of cards.
+Takes the JSONs inside `/src/data` folder and images inside `/src/img/normal` and generates [dist/index.pdf](dist/index.pdf) and [dist/index.html](https://el-lobo.netlify.com/) with the deck of cards.
 
 ## Commands
 
