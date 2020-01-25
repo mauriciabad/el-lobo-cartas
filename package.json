@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "predist": "rm -rf dist && mkdir dist && cp -r -d src/img dist/img && cp -d src/main.css dist/main.css",
+    "predist": "rm -rf dist && mkdir dist && cp -r src/img dist/img && cp src/main.css dist/main.css && cp src/script.js dist/script.js && cp -r src/fonts dist/fonts",
     "dist": "node src/main.js",
     "start": "npm run dist"
   },

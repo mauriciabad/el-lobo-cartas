@@ -18,7 +18,7 @@ npm start
 
 ## Resources
 
-We use [Flat Icon](https://www.flaticon.com) images and [Explorer Font](https://www.behance.net/gallery/78419793/Free-Font-Explorer)
+We use [Flat Icon](https://www.flaticon.com) images.
 
 ## Ideas
 

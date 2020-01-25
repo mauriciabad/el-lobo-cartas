@@ -1,10 +1,20 @@
+@font-face {
+  font-family: Risque;
+  src: url(/dist/fonts/Risque-Regular.woff2);
+}
+
+@font-face {
+  font-family: Short Stack;
+  src: url(/dist/fonts/ShortStack-Regular.ttf);
+}
+
 :root {
   /* --border-color: rgba(0, 0, 0, 0.05); */
   --border-color: rgba(0, 0, 0, 0.2);
 }
 
 body {
-  font-family: 'Lora', serif;
+  font-family: 'Short Stack', cursive;
   margin: 0;
 }
 
@@ -49,6 +59,8 @@ body {
 }
 
 .card__title {
+  font-family: 'Risque', cursive;
+  font-weight: normal;
   font-size: 0.8cm;
   line-height: 0.9;
   margin: 0.25cm 0 0.25cm;

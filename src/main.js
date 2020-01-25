@@ -5,7 +5,7 @@ const pdf = require('html-pdf');
 
 const cards = {
   normal: fs.readdirSync('./src/img/normal').filter((fileName) => /\.(svg|png|jpg|jpeg|gif)$/i.test(fileName) ),
-  events: JSON.parse(fs.readFileSync('data/events.json')),
+  events: JSON.parse(fs.readFileSync('./src/data/events.json')),
 }
 
 
@@ -15,11 +15,11 @@ var html = `<!DOCTYPE html>
     <meta charset="UTF-8">
     <title>Lobo</title>
     <link href="main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
   </head>
   <body>
     ${generateCards(cards)}
   </body>
+  <script src="script.js">
 </html>`;
 
 fs.writeFile("dist/index.html", html, (err) => {
