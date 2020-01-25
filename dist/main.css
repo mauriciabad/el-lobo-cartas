@@ -1,0 +1,91 @@
+:root {
+  /* --border-color: rgba(0, 0, 0, 0.05); */
+  --border-color: rgba(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+.deck {
+  page-break-after: always;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card {
+  page-break-inside: avoid;
+  position: relative;
+  overflow: hidden;
+  width: 6.4cm;
+  height: 8.9cm;
+  box-sizing: border-box;
+  padding: 0.6cm;
+  text-align: center;
+}
+.card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 2mm;
+  z-index: -2;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border: solid var(--border-color) 0.1mm;
+  z-index: -3;
+}
+
+.card__title {
+  font-size: 0.8cm;
+  line-height: 0.9;
+  margin: 0.25cm 0 0.25cm;
+}
+
+.card__description {
+  font-size: 0.35cm;
+  line-height: 0.4cm;
+  text-shadow: 0 0 0.1cm #fff, 0 0 0.2cm #fff, 0 0 0.3cm #fff, 0 0 0.4cm #fff, 0 0 0.5cm #fff;
+}
+
+.card__img {
+  height: 3cm;
+  margin: 0.5cm 0 0;
+}
+
+.card--normal > .card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+
+.card--normal {
+  width: 4cm;
+  height: 4cm;
+  padding: 0.5cm
+}
+
+.card--event > .card__img {
+  height: unset;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: -0.5cm;
+  right: -0.5cm;
+  z-index: -1;
+  width: calc(100% + 1cm);
+  opacity: 0.5;
+}
