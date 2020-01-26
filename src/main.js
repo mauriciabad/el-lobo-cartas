@@ -18,8 +18,8 @@ var html = `<!DOCTYPE html>
   </head>
   <body>
     ${generateCards(cards)}
+    <script src="script.js"></script>
   </body>
-  <script src="script.js">
 </html>`;
 
 fs.writeFile("dist/index.html", html, (err) => {

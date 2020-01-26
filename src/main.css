@@ -20,12 +20,11 @@ body {
 
 .deck {
   page-break-after: always;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  clear: both;
 }
 
 .card {
+  float: left;
   page-break-inside: avoid;
   position: relative;
   overflow: hidden;
