@@ -31,7 +31,7 @@
   },
   {
     "title": "Inundación",
-    "description": "Las inundaciones han transformado el pueblo en un pueblo lacustre (a la orilla de un lago). Los jugadores se han refugiado en el albergue y las jugadoras en la iglesia. El voto del día se anula porque están separados, pero los hombres lobo pueden cazar dentro del edificio en donde se han refugiado. (Puede haber dos víctimas, pero esta regla solo se aplica si quedan al menos 6 jugadores).",
+    "description": "Las inundaciones han transformado el pueblo en un pueblo lacustre (a la orilla de un lago). Los jugadores se han refugiado en el albergue y las jugadoras en la iglesia. El voto del día se anula porque están separados, pero los hombres lobo pueden cazar dentro del edificio en donde se han refugiado. (Puede haber dos víctimas, esta regla solo se aplica si quedan al menos 6 jugadores).",
     "duration": "inmediata"
   },
   {
@@ -136,12 +136,12 @@
   },
   {
     "title": "Lunes sombrío",
-    "description": "Es un día triste sin historia. No sucede nada salvo que el narrador quiera aplicar “Estoy seguro de que él no es”.",
+    "description": "Es un día triste sin historia. No sucede nada salvo que el narrador quiera aplicar “Os aseguro que él no es”.",
     "duration": "inmediata"
   },
   {
-    "title": "Estoy seguro de que él no es",
-    "description": "Todos los Aldeanos en juego se levantan. Luego el vecino a la izquierda del último jugador eliminado designa a un Aldeano al que garantiza la inocencia. Ahora, el jugador que ha hablado se sienta y la persona que ha mencionado, deberá declararse inocente si quiere sobrevivir. Así sucesivamente hasta el último jugador levantado. Este último jugador es la víctima del pueblo.",
+    "title": "Os aseguro que él no es",
+    "description": "Todos los Aldeanos en juego se levantan. Luego el vecino a la izquierda del último jugador eliminado designa a un Aldeano al que garantiza la inocencia. Ahora, el jugador que ha hablado se sienta y la persona que ha mencionado, deberá declararse inocente para sobrevivir. Así hasta el último jugador en pié. Este es la víctima del pueblo.",
     "duration": "temporal"
   },
   {
