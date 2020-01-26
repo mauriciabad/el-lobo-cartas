@@ -1,11 +1,11 @@
 @font-face {
   font-family: Risque;
-  src: url(/fonts/Risque-Regular.woff2);
+  src: url(fonts/Risque-Regular.woff2);
 }
 
 @font-face {
   font-family: Short Stack;
-  src: url(/fonts/ShortStack-Regular.ttf);
+  src: url(fonts/ShortStack-Regular.ttf);
 }
 
 :root {
