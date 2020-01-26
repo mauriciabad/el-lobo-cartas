@@ -17,6 +17,12 @@ var html = `<!DOCTYPE html>
     <link href="main.css" rel="stylesheet">
   </head>
   <body>
+    <div class="instructions">
+      <h2>Instructions</h2>
+      <b>Left click</b>: Duplicate card<br>
+      <b>Right click</b>: Remove card<br>
+      <b>Ctrl + P</b>: Print document
+    </div>
     ${generateCards(cards)}
     <script src="script.js"></script>
   </body>
@@ -48,12 +54,22 @@ function generateCards(cards){
   </div>
   <div class="deck">
     ${cards['events'].reduce((total, card) => total + generateEventCard(card), '')}
+  </div>
+  <div class="deck">
+    ${cards['normal'].reduce((total, card) => total + generateNormalMiniCard(card), '')}
   </div>`;
 }
 
 function generateNormalCard(src) {
   return `
     <div class="card card--normal">
+      <img src="img/normal/${src}" class="card__img">
+    </div>`;
+}
+
+function generateNormalMiniCard(src) {
+  return `
+    <div class="card card--mini">
       <img src="img/normal/${src}" class="card__img">
     </div>`;
 }
