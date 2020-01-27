@@ -2,6 +2,8 @@
 
 Takes the JSONs inside `/src/data` folder and images inside `/src/img/normal` and generates [dist/index.pdf](dist/index.pdf) and [dist/index.html](https://el-lobo.netlify.com/) with the deck of cards.
 
+Here you have the [PDF ready to print](print.pdf).
+
 ## Commands
 
 ### Intall
