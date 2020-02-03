@@ -49,13 +49,13 @@ function generateCards(cards){
   // Explanation: for each type of card we generate and combine the html of each card.
   // Note: the order of generation is important to match the front widhth the backs.
   return `
-  <div class="deck">
+  <div class="deck deck--normal">
     ${cards['normal'].reduce((total, card) => total + generateNormalCard(card), '')}
   </div>
-  <div class="deck">
+  <div class="deck deck--events">
     ${cards['events'].reduce((total, card) => total + generateEventCard(card), '')}
   </div>
-  <div class="deck">
+  <div class="deck deck--mini">
     ${cards['normal'].reduce((total, card) => total + generateNormalMiniCard(card), '')}
   </div>`;
 }

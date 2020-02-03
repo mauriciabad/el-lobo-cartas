@@ -8,9 +8,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "predist": "rm -rf dist && mkdir dist && cp -r src/img dist/img && cp src/main.css dist/main.css && cp src/script.js dist/script.js && cp -r src/fonts dist/fonts",
+    "predist": "mkdir -p dist && cp -r src/img dist/img && cp src/main.css dist/main.css && cp src/script.js dist/script.js && cp -r src/fonts dist/fonts",
     "dist": "node src/main.js",
-    "start": "npm run dist"
+    "start": "npm run dist",
+    "clean": "rm -rf dist"
   },
   "repository": {
     "type": "git",
