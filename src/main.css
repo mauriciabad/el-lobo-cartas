@@ -16,6 +16,7 @@
 body {
   font-family: 'Short Stack', cursive;
   margin: 0;
+  user-select: none;
 }
 
 .deck {
