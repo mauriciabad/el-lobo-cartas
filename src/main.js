@@ -62,14 +62,14 @@ function generateCards(cards){
 
 function generateNormalCard(src) {
   return `
-    <div class="card card--normal">
+    <div class="card card--normal" title="${src}">
       <img src="img/normal/${src}" class="card__img">
     </div>`;
 }
 
 function generateNormalMiniCard(src) {
   return `
-    <div class="card card--mini">
+    <div class="card card--mini" title="${src}">
       <img src="img/normal/${src}" class="card__img">
     </div>`;
 }
